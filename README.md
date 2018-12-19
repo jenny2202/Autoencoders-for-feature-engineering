@@ -23,7 +23,7 @@ df_test <- GermanCredit[-id, ] # For testing
 
 # Activate h2o package for deep learning: 
 library(h2o)
-h2o.init(nthreads = -1, max_mem_size = "16g") ##?
+h2o.init(nthreads = -1, max_mem_size = "16g")
 
 h2o.no_progress()
 
